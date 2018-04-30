@@ -12,7 +12,7 @@ often take things too far and invite you to shoot yourself in the foot
 (see [wat](https://www.destroyallsoftware.com/talks/wat) by Gary Bernhardt ).
 
 But, if we're honest, Python is at the core also a complex dynamic language with plenty
-of room to write code that is doesn't do what it's supposed to do or runs
+of room to write code that doesn't do what it's supposed to do or runs
 very slowly. In this tutorial, we will introduce some common tools for
 **debugging** and **profiling** Python code, i.e. techniques that
 will help you interactively figure out wat is going on.
@@ -34,7 +34,7 @@ Python 3.6, Numpy, IPython terminal, Jupyter notebook, PyCharm,
 [snakeviz](https://github.com/jiffyclub/snakeviz),
 [psrecord](https://github.com/astrofrog/psrecord)
 
-Generally, a good understanding of how Python itself and the data structures you use work is often helpful or even
+Generally, a good understanding of how Python itself and the data structures you use work are often helpful or even
 required to be able to debug or profile and optimise a piece of Python code.
 
 If you're new to Python or Numpy and want to prepare for this tutorial, I'd recommend you start by
