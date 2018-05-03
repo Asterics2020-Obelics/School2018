@@ -11,7 +11,6 @@ programming for astrophysics and astroparticle physics".
 
 # Table on content
 
-- [Important links](#links)
 - [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
@@ -23,10 +22,6 @@ programming for astrophysics and astroparticle physics".
 - [Tutors](#tutors)
 - [Help](#help)
 - [Ressources](#ressources)
-
-# Important links <a name="links"></a>
-
-- [Local copies](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok) of needed software, like Anaconda and PyCharm
 
 
 # Get a copy of this repository with `git` <a name="repo"></a>
@@ -52,12 +47,12 @@ recommended way to do so is to use
     - CERN Scientific Linux 6: `sudo yum install -y git tar bzip2 wget`
     - CERN CentOS 7: `sudo yum install -y git bzip2 wget`
 
-1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok))
+1. [Download](https://repo.anaconda.com/archive/Anaconda3-5.1.0-Linux-x86_64.sh)
 the Linux `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
 
-		bash Anaconda3-4.3.1-Linux-x86_64.sh
+		bash Anaconda3-5.1.0-Linux-x86_64.sh
 
 1. Answer `no` to the following question if you do not want to mess up
   your previous installs of python.
@@ -94,12 +89,12 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 
 ## Mac <a name="mac"></a>
 
-1. [Download](https://repo.continuum.io/archive/Anaconda3-4.3.1-MacOSX-x86_64.sh) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok))
+1. [Download](https://repo.anaconda.com/archive/Anaconda2-5.1.0-MacOSX-x86_64.sh) 
 the Mac `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
 
-		bash Anaconda3-4.3.1-MacOSX-x86_64.sh
+		bash Anaconda2-5.1.0-MacOSX-x86_64.sh
 
 1. Answer `no` to the following question if you do not want to mess up
   your previous installs of python.
@@ -130,7 +125,7 @@ PYTHONPATH enabling the use of your `Anaconda` install.
 ## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
-[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok)). Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
+[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
 
 You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started. 
 
@@ -157,7 +152,7 @@ On Windows, see in the [above](#windows).
 
 # IDE: PyCharm <a name="pycharm"></a>
 
-We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) ([local copy](https://lapp-owncloud.in2p3.fr/index.php/s/HtYGL5G7TAe0nok)) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
+We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
 
 
 # Tutors <a name="tutors"></a>
