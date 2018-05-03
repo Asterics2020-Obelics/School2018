@@ -172,3 +172,15 @@ during the school about software install and/or about one of the
 classes. Of course, you should first check the existing list of issues
 to see if your question has already been asked and answered before
 creating a new one.
+
+# Ressources
+
+2017 edition of the school: [program](https://indico.in2p3.fr/event/14227/timetable/#20170606) and [github](https://github.com/Asterics2020-Obelics/School2017)
+
+Complete Python tutorials:
+ * [Python for Scientific Computing](http://bender.astro.sunysb.edu/classes/python-science/)
+ * [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
+ * [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+ 
+ Workshops:
+ * [Python for Astronomers and Particle Physicists](https://www.ice.csic.es/indico/event/5/overview) ([github](https://github.com/Python4AstronomersAndParticlePhysicists/PythonWorkshop-ICE))
