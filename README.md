@@ -22,6 +22,7 @@ programming for astrophysics and astroparticle physics".
 - [IDE: PyCharm](#pycharm)
 - [Tutors](#tutors)
 - [Help](#help)
+- [Ressources](#ressources)
 
 # Important links <a name="links"></a>
 
@@ -161,9 +162,9 @@ We strongly recommend to use pycharm, especially for the "Debugging & profiling"
 
 # Tutors <a name="tutors"></a>
 
-TBC
+Full list of tutors available [here](https://indico.in2p3.fr/event/16864/page/1846-list-of-tutors).
  
-# Help
+# Help <a name="help"></a>
 
 Please create a [new
 issue](https://github.com/Asterics2020-Obelics/School2018/issues) (you
@@ -173,7 +174,7 @@ classes. Of course, you should first check the existing list of issues
 to see if your question has already been asked and answered before
 creating a new one.
 
-# Ressources
+# Ressources <a name="ressources"></a>
 
 2017 edition of the school: [program](https://indico.in2p3.fr/event/14227/timetable/#20170606) and [github](https://github.com/Asterics2020-Obelics/School2017)
 
