@@ -59,16 +59,20 @@ the Linux `Anaconda` installer for Python 3.6.
 1. Choose the install location, we recommend `~/.local/anaconda3` instead of `~/anaconda3` to not mess up you home too much.
 
 1. After the installation, you are asked if you want to add conda to the `PATH`. Answer `no`.
-	
+
+    ```
     Do you wish the installer to prepend the Anaconda3 install location
     to PATH in your /home/chotard/.bashrc ? [yes|no]
     [no] >>> no
+    ```
 
 1. Edit your `.bashrc` to include the first or both of the following two lines  you `.bashrc`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
 
+    ```
     . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
     conda activate
-                
+    ```
+
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
 
@@ -88,16 +92,17 @@ the Mac `Anaconda` installer for Python 3.6.
 1. Choose the install location, we recommend `~/.local/anaconda3` instead of `~/anaconda3` to not mess up your home too much.
 
 1. After the installation, you are asked if you want to add conda to the `PATH`. Answer `no`.
-
-		Do you wish the installer to prepend the Anaconda3 install location
-		to PATH in your /home/chotard/.bashrc ? [yes|no]
-		[no] >>> no
+```
+Do you wish the installer to prepend the Anaconda3 install location
+to PATH in your /home/chotard/.bashrc ? [yes|no]
+[no] >>> no
+```
 
 1. Edit your `.bash_profile` to include the first or both of the following two lines  you `.bash_profile`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
-
-    . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
+```
+. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
     conda activate
-                
+```             
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
 
