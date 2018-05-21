@@ -54,36 +54,23 @@ the Linux `Anaconda` installer for Python 3.6.
 
 		bash Anaconda3-5.1.0-Linux-x86_64.sh
 
-1. Answer `no` to the following question if you do not want to mess up
-  your previous installs of python.
+1. Accept the License by pressing `<Enter>`, then scrolling down to the bottom using `<space>` and writing `yes`
+
+1. Choose the install location, we recommend `~/.local/anaconda3` instead of `~/anaconda3` to not mess up you home too much.
+
+1. After the installation, you are asked if you want to add conda to the `PATH`. Answer `no`.
 	
-		Do you wish the installer to prepend the Anaconda3 install location
-		to PATH in your /home/chotard/.bashrc ? [yes|no]
-		[no] >>> no
+    Do you wish the installer to prepend the Anaconda3 install location
+    to PATH in your /home/chotard/.bashrc ? [yes|no]
+    [no] >>> no
 
-1. If you haven't cloned this repository, download one of the
-`anaconda_setup` script (`sh` or `csh` depending on your shell):
+1. Edit your `.bashrc` to include the first or both of the following two lines  you `.bashrc`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
 
-		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
-		or
-		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.csh
+    . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
+    conda activate
+                
+Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
-1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
-
-		ANACONDA=YOURSELECTEDPATH
-		or
-		setenv ANACONDA YOURSELECTEDPATH
-
-1. Run the `anaconda_setup` script to set up the correct PATH and
-PYTHONPATH enabling the use of your `Anaconda` install.
-
-		source anaconda_setup.sh
-		or
-		source anaconda_setup.csh
-
-    You can either run this command each time you need to use `Anaconda`,
-    or add its content to your `.bashrc` (or equivalent) to set it up at
-    the opening of a new terminal.
 
 1. See next section for extra Python libraries requirements (if any).
 
@@ -96,29 +83,23 @@ the Mac `Anaconda` installer for Python 3.6.
 
 		bash Anaconda2-5.1.0-MacOSX-x86_64.sh
 
-1. Answer `no` to the following question if you do not want to mess up
-  your previous installs of python.
-	
+1. Accept the License by pressing `<Enter>`, then scrolling down to the bottom using `<space>` and writing `yes`
+
+1. Choose the install location, we recommend `~/.local/anaconda3` instead of `~/anaconda3` to not mess up your home too much.
+
+1. After the installation, you are asked if you want to add conda to the `PATH`. Answer `no`.
+
 		Do you wish the installer to prepend the Anaconda3 install location
 		to PATH in your /home/chotard/.bashrc ? [yes|no]
 		[no] >>> no
 
-1. If you haven't cloned this repository, first get the `anaconda_setup.sh` script:
+1. Edit your `.bash_profile` to include the first or both of the following two lines  you `.bash_profile`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
 
-		wget https://raw.githubusercontent.com/Asterics2020-Obelics/School2017/master/anaconda_setup.sh
+    . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
+    conda activate
+                
+Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
-1. If you have installed `anaconda` in a different directory than the default one suggested by the `anaconda` installer (your home directory), edit the first line of the `anaconda_setup` script with your selected path.
-
-		ANACONDA=YOURSELECTEDPATH
-
-1. Run the `anaconda_setup.sh` script to set up the correct PATH and
-PYTHONPATH enabling the use of your `Anaconda` install.
-
-		source anaconda_setup.sh
-
-    You can either run this command each time you need to use `Anaconda`,
-    or add its content to your `.bashrc` (or equivalent) to set it up at
-    the opening of a new terminal.
 
 1. See next section for extra Python libraries requirements (if any).
 
