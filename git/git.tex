@@ -17,7 +17,12 @@
 \usepackage[autostyle]{csquotes}
 
 \usepackage{fontspec}
-\setsansfont[BoldFont=Fira Sans Medium]{Fira Sans Light}
+\setsansfont[
+  BoldFont=Fira Sans Medium,
+  BoldItalicFont=Fira Sans Medium Italic,
+  ItalicFont=Fira Sans Light Italic
+]{Fira Sans Light}
+\setmonofont{Fira Mono}
 
 \usepackage{grffile}
 \usepackage{graphicx}
@@ -34,6 +39,8 @@
 \usetikzlibrary{
   graphs, arrows, positioning, graphdrawing
 }
+
+\usepackage{bookmark}
 
 \usepackage[
   shortcuts,
@@ -75,5 +82,6 @@
 \input{content/git.tex}
 \input{content/hosters.tex}
 \input{content/ci.tex}
+\input{content/comparison.tex}
 
 \end{document}
