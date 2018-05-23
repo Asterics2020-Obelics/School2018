@@ -10,10 +10,24 @@
     \item ...
   \end{itemize} 
 \end{frame}
-\begin{frame}[c]{Travis-CI}
+\begin{frame}[c, fragile]{Travis-CI}
   \begin{itemize}
     \item Travis provides free CI linux servers for public github repositories
     \item Configured by a \texttt{.travis.yml} file in the repo
   \end{itemize}
-\end{frame}
 
+  Simple Python example:
+
+  \begin{lstlisting}
+    language: python
+    python:  # run tests on python 3.5 and 3.6
+      - "3.5"
+      - "3.6"
+    install:
+      - pip install .
+    script:
+      - pytest -v
+  \end{lstlisting}
+
+  Much more complex tasks are possible: e.g. deploy to PyPI on tags, build and upload documentation etc.
+\end{frame}
