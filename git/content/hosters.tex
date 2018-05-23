@@ -90,3 +90,20 @@
     git reset --hard upstream/master & Reset the current branch to the master of the main repo to synchronize with the changes
   \end{tabu}
 \end{frame}
+
+\begin{frame}[c, fragile]{Integration with Issue Tracking}
+  Start working on fixing a bug, that was documented in issue 42.
+
+  \begin{lstlisting}[language=, basicstyle=\small\ttfamily]
+  $ git checkout -b fix_42
+
+  ... do stuff to fix bug ...
+
+  $ git add src/foo.cxx
+  $ git commit -m "Fix segmentation fault when doing stuff, fixes #42" 
+  $ git push -u origin fix_42
+  \end{lstlisting}
+
+  If this commit get's merged into master, issue 42 will automatically be closed.
+  
+\end{frame}
