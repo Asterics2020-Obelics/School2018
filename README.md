@@ -152,6 +152,19 @@ You can get the slack app directly on your phone: [Android](https://play.google.
 # Tutors <a name="tutors"></a>
 
 Full list of tutors available [here](https://indico.in2p3.fr/event/16864/page/1846-list-of-tutors).
+
+Here is the list of tutors for the hands-on sessions, with the additional tutors that would circulate to help participants during the exercises and hands-on.
+
+| Hands-on               | Main tutor(s)              | Additional tutors                                                    |
+| ---------------------- |----------------------------|----------------------------------------------------------------------|
+| Efficient code design  | Tammo Jan Dijkema, Zheng Meyer|                                                                   |
+| Numpy                  | Tamas Gal                  |                                                                      |
+| Pandas                 | Tamas Gal                  |                                                                      |
+| Scipy                  | Kai Bruegge, Maximilian Nöthe|                                                                    |
+| PyVO                   | Hendrik Heinl              |                                                                      |
+| Debugging & Profiling  | Christoph Deil             |                                                                      |
+| Astropy                | Axel Donath, Christoph Deil |                                                                     |
+| Machine learning       | David Kirkby               | Thomas Vuillaume                                                     |
  
 # Help <a name="help"></a>
 
