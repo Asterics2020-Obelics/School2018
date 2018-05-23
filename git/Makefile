@@ -7,6 +7,9 @@ all: build/git.pdf
 build/git.pdf: FORCE
 	TEXINPUTS=$(TEXINPUTS) latexmk $(TEXOPTIONS) git.tex
 
+preview: FORCE
+	TEXINPUTS=$(TEXINPUTS) latexmk $(TEXOPTIONS) -pvc git.tex
+
 build/git.pdf: $(addprefix build/figures/, github.png bitbucket.png gitlab.png)
 
 

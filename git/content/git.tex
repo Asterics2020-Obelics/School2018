@@ -165,7 +165,8 @@
 
 \begin{frame}{Typical single-branch workflow}
   \begin{enumerate}
-    \item Create or clone repository : \texttt{git init}, \texttt{git clone <url>}
+    \item[If new] Create or clone repository : \texttt{git init}, \texttt{git clone <url>}
+    \item[If exists] \texttt{git pull}
     \item Work
       \begin{enumerate}
         \item Edit files and build/test
@@ -198,7 +199,7 @@
     git add -p …     & Powerfull tool to only add parts of a file \\
     git mv           & like \texttt{mv}, stages automatically \\
     git rm           & like \texttt{rm}, stages automatically \\
-    git reset \textit{file} & Removes changes/files from the staging area
+    git reset <file> & Removes changes/files from the staging area
   \end{tabu}
 \end{frame}
 
@@ -249,9 +250,11 @@
 \end{frame}
 
 \begin{frame}[t]{Working using multiple branches – GitHub Workflow}
+  There are multiple models of working together with git using branches
+
+  Simplest and most popular: \enquote{GitHub-Workflow}
+
   \begin{itemize}
-    \item There are multiple models of working together with git using branches
-    \item Simplest and most popular: \enquote{GitHub-Workflow}
     \item Nobody directly commits into the \texttt{master} branch
     \item For each new feature / change / bugfix a new branch is created
     \item Branches should be rather shortlived
@@ -295,30 +298,47 @@
 
 \begin{frame}{\texttt{git stash}}
   \begin{tabu}{>{\ttfamily}l X[,L]}
-    git stash     & Änderungen kurz zur Seite schieben \\
-    git stash pop & Änderungen zurückholen aus Stash
+    git stash     & Reset CWD to last commit but save the changes in the \enquote{stash} \\
+    git stash pop & Get the saved changes back
   \end{tabu}
 \end{frame}
 
 \begin{frame}[fragile]{\texttt{.gitignore}}
-    \begin{itemize}
-    \item Man möchte nicht alle Dateien von \texttt{git} beobachten lassen
-    \item z.B. \texttt{build}-Ordner
-    \end{itemize}
-    \begin{center}
-        \Large Lösung: \texttt{.gitignore}-Datei
-    \end{center}
+  Many files or filetypes should not be put under version control
+  \begin{itemize}
+    \item Compilation results
+    \item Files reproducibly created by scripts
+    \item Config files containing credentials
+    \item ...
+  \end{itemize}
 
-    \begin{itemize}
-    \item einfache Textdatei
-    \item enthält Regeln für Dateien, die nicht beobachtet werden sollen
-    \end{itemize}
-    Beispiel:
-    \vspace{1em}
-    \begin{lstlisting}[language=, keywordstyle={}]
-      build/
-      *.pdf
-      __pycache__/
-    \end{lstlisting}
+  \begin{itemize}
+  \item \texttt{.gitignore} in the base of a repository
+  \item One file or glob pattern per line for files that git should ignore
+  \end{itemize}
+  Example:
+  \begin{lstlisting}[language=, keywordstyle={}]
+    build/
+    *.so
+    __pycache__/
+  \end{lstlisting}
+
+  Github provides a default \texttt{.gitignore} for most programming languages: \href{https://github.com/github/gitignore}{github.com/github/gitignore}
+\end{frame}
+
+\begin{frame}[fragile]{Global \texttt{.gitignore}}
+  For some files it makes sense to ignore them globally, for every repository
+
+  \lstinline+git config --global core.excludesfile $HOME/.gitignore+
+
+  E.g. strange macOS files or editor backup files
+
+  \begin{lstlisting}[language=, keywordstyle={}]
+    __MACOSX   # weird mac directory
+    .DS_STORE  # weird mac metadata file
+    *.swp      # vim backup files
+    *~         # nano / gedit backup files
+  \end{lstlisting}
+
 \end{frame}
 
