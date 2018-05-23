@@ -19,6 +19,7 @@ programming for astrophysics and astroparticle physics".
     - [Library requirements](#python-req)
 - [Jupyter](#jupyter)    
 - [IDE: PyCharm](#pycharm)
+- [Chat room](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
 - [Ressources](#ressources)
@@ -140,6 +141,13 @@ On Windows, see in the [above](#windows).
 
 We recommend to use pycharm. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
 
+# Chat rooms <a name="chat"></a>
+
+[Slack chat rooms](https://obelics-school2018.slack.com/) are available before, during and after the school (you should have received an email with an invitation). If you need to talk to each other during a session, share information, ask questions, you can use the corresponding chat rooms to do so. These chat rooms can also be used by the different tutors to give information or advices before or during the hands-on sessions. You can also start one-to-one chat rooms.
+
+Several channels are available, like *General* for all discussion/questions about the school, lectures, hands-on, etc. There is also a channel *Social* to help you to get out together during the evening.
+
+You can get the slack app directly on your phone: [Android](https://play.google.com/store/apps/details?id=com.Slack) or [Apple](https://itunes.apple.com/fr/app/slack/id618783545?mt=8).
 
 # Tutors <a name="tutors"></a>
 
