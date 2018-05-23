@@ -138,7 +138,7 @@ On Windows, see in the [above](#windows).
 
 # IDE: PyCharm <a name="pycharm"></a>
 
-We strongly recommend to use pycharm, especially for the "Debugging & profiling" course. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
+We recommend to use pycharm. Free Community Edition: [Download PyCharm](https://www.jetbrains.com/pycharm/download) or opt for a free copy of the Professional Edition under [Student License](https://www.jetbrains.com/student/).
 
 
 # Tutors <a name="tutors"></a>
