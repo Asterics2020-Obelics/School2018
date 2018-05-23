@@ -151,7 +151,7 @@ You can get the slack app directly on your phone: [Android](https://play.google.
 
 # Tutors <a name="tutors"></a>
 
-Full list of tutors available [here](https://indico.in2p3.fr/event/16864/page/1846-list-of-tutors).
+The full list of tutors is available [here](https://indico.in2p3.fr/event/16864/page/1846-list-of-tutors).
 
 Here is the list of tutors for the hands-on sessions, with the additional tutors that would circulate to help participants during the exercises and hands-on.
 
@@ -175,6 +175,8 @@ during the school about software install and/or about one of the
 classes. Of course, you should first check the existing list of issues
 to see if your question has already been asked and answered before
 creating a new one.
+
+Alternatively, use the [chat rooms](#chat).
 
 # Ressources <a name="ressources"></a>
 
