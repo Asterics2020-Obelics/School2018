@@ -147,7 +147,7 @@ We recommend to use pycharm. Free Community Edition: [Download PyCharm](https://
 
 Several channels are available, like *General* for all discussion/questions about the school, lectures, hands-on, etc. There is also a channel *Social* to help you to get out together during the evening.
 
-You can get the slack app directly on your phone: [Android](https://play.google.com/store/apps/details?id=com.Slack) or [Apple](https://itunes.apple.com/fr/app/slack/id618783545?mt=8).
+You can get the slack app directly on your phone: [Android](https://play.google.com/store/apps/details?id=com.Slack) or [Apple](https://itunes.apple.com/fr/app/slack/id618783545?mt=8). You can also get it for Windows, Mac, or Linux [here](https://slack.com).
 
 # Tutors <a name="tutors"></a>
 
