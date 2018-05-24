@@ -164,7 +164,7 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | PyVO                   | Hendrik Heinl              |                                                                      |
 | Debugging & Profiling  | Christoph Deil             |                                                                      |
 | Astropy                | Axel Donath, Christoph Deil |                                                                     |
-| Machine learning       | David Kirkby               | Thomas Vuillaume                                                     |
+| Machine learning       | David Kirkby               | Kai Bruegge, Thomas Vuillaume                                                     |
  
 # Help <a name="help"></a>
 
