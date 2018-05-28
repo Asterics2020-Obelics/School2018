@@ -78,7 +78,7 @@ the Linux `Anaconda` installer for Python 3.6.
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
 
-1. See next section for extra Python libraries requirements (if any).
+See next section for extra Python libraries requirements (if any).
 
 ## Mac <a name="mac"></a>
 
@@ -108,7 +108,7 @@ to PATH in your /home/username/.bashrc ? [yes|no]
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
 
-1. See next section for extra Python libraries requirements (if any).
+See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
 
@@ -120,7 +120,11 @@ You can also install a Git tool for Windows: [Git for Windows](https://git-for-w
 ## Library requirements <a name="req"></a>
 
 We will use a common environment all along the school.
-To create it, you just need to run
+First of all, update conda to be able to use the latest features:
+```
+conda update conda
+```
+To create it, you just need to run:
 ```
 conda env create -f environment.yml
 ```
@@ -130,7 +134,7 @@ Once the environment has been created and all dependencies installed, you may ac
 conda activate school18
 ```
 
-Note that if you haven't followed the [Anaconda installation](#python) or have an Anaconda version < 4.4, you will have to run
+> Note that if you haven't followed the [Anaconda installation](#python) or have an Anaconda version < 4.4, you will have to run
 ```
 source activate school18
 ```
