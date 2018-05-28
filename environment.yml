@@ -18,3 +18,9 @@ dependencies:
   - pytables
   - pillow
   - seaborn
+  - line_profiler
+  - memory_profiler
+  - snakeviz
+  - pip
+pip:
+  - psrecord
