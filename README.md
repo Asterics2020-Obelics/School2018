@@ -39,6 +39,7 @@ during the school while attending the hands-on. For Windows, see [below](#window
 You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
 [Anaconda](https://www.continuum.io/downloads). The procedures described bellow will help you install what is needed for the school.
+If you already have Anaconda installed, you may skip to the [Library requirements section](#req).
 
 ## Linux <a name="linux"></a>
 
@@ -63,11 +64,11 @@ the Linux `Anaconda` installer for Python 3.6.
 
     ```
     Do you wish the installer to prepend the Anaconda3 install location
-    to PATH in your /home/chotard/.bashrc ? [yes|no]
+    to PATH in your /home/username/.bashrc ? [yes|no]
     [no] >>> no
     ```
 
-1. Edit your `.bashrc` to include the first or both of the following two lines  you `.bashrc`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
+1. Edit your `.bashrc` to include the first or both of the following two lines  you `.bashrc`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly.
 
     ```
     . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
@@ -81,7 +82,7 @@ Set the correct path to your anaconda installation. If you do not include the se
 
 ## Mac <a name="mac"></a>
 
-1. [Download](https://repo.anaconda.com/archive/Anaconda2-5.1.0-MacOSX-x86_64.sh) 
+1. [Download](https://repo.anaconda.com/archive/Anaconda2-5.1.0-MacOSX-x86_64.sh)
 the Mac `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
@@ -95,11 +96,11 @@ the Mac `Anaconda` installer for Python 3.6.
 1. After the installation, you are asked if you want to add conda to the `PATH`. Answer `no`.
 ```
 Do you wish the installer to prepend the Anaconda3 install location
-to PATH in your /home/chotard/.bashrc ? [yes|no]
+to PATH in your /home/username/.bashrc ? [yes|no]
 [no] >>> no
 ```
 
-1. Edit your `.bash_profile` to include the first or both of the following two lines  you `.bash_profile`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly. 
+1. Edit your `.bash_profile` to include the first or both of the following two lines  you `.bash_profile`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly.
 ```
 . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
     conda activate
@@ -112,22 +113,23 @@ Set the correct path to your anaconda installation. If you do not include the se
 ## Windows <a name="windows"></a>
 
 Instruction for Windows can be found
-[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`. 
+[here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`.
 
-You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started. 
+You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started.
 
-## Library requirements <a name="python-req"></a>
+## Library requirements <a name="req"></a>
 
-All the required libraries come with the `Anaconda` install described
-above. If you have followed the previous steps to install Python, you
-can skip this section.
+We will use a common environment all along the school.
+To create it, you just need to run
+```
+conda env create -n school18 -f environment.yml
+```
 
-If you choose an other way to install Python 3.6 than the one
-recommended above, you must install manually the Python libraries
-listed in the [requirements.txt](requirements.txt) file. To do so, we
-recommend using `pip`.
+Once the environment has been created and all dependencies installed, you may activate it with (you will need to do that every time you want to use this environment):
+```
+source activate school18
+```
 
-	  pip install -r requirements.txt
 
 # Jupyter <a name="jupyter"></a>
 
@@ -165,7 +167,7 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | Debugging & Profiling  | Christoph Deil             |                                                                      |
 | Astropy                | Axel Donath, Christoph Deil |                                                                     |
 | Machine learning       | David Kirkby               | Kai Bruegge, Thomas Vuillaume                                                     |
- 
+
 # Help <a name="help"></a>
 
 Please create a [new
@@ -186,6 +188,6 @@ Complete Python tutorials:
  * [Python for Scientific Computing](http://bender.astro.sunysb.edu/classes/python-science/)
  * [A Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython)
  * [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
- 
+
  Workshops:
  * [Python for Astronomers and Particle Physicists](https://www.ice.csic.es/indico/event/5/overview) ([github](https://github.com/Python4AstronomersAndParticlePhysicists/PythonWorkshop-ICE))
