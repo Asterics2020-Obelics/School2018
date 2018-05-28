@@ -160,6 +160,7 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | Hands-on               | Main tutor(s)              | Additional tutors                                                    |
 | ---------------------- |----------------------------|----------------------------------------------------------------------|
 | Efficient code design  | Tammo Jan Dijkema, Zheng Meyer|                                                                   |
+| Git                    | Kai Bruegge, Maximilian Nöthe|                                                                    |
 | Numpy                  | Tamas Gal                  | Frederic Gillardo                                                    |
 | Pandas                 | Tamas Gal                  | Frederic Gillardo                                                    |
 | Scipy                  | Kai Bruegge, Maximilian Nöthe|                                                                    |
