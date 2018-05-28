@@ -1,26 +1,32 @@
 name: school18
 channels:
-  - anaconda
+    - anaconda
+    - astropy
 dependencies:
-  - python=3.6
-  - astropy
-  - cython
-  - h5py
-  - ipython
-  - jupyter
-  - jupyterlab
-  - matplotlib
-  - numba
-  - numpy
-  - pandas
-  - scikit-learn
-  - scipy
-  - pytables
-  - pillow
-  - seaborn
-  - line_profiler
-  - memory_profiler
-  - snakeviz
-  - pip
-pip:
-  - psrecord
+    - python=3.6
+    - astropy
+    - cython
+    - h5py
+    - ipython
+    - jupyter
+    - jupyterlab
+    - matplotlib
+    - numba
+    - numpy
+    - pandas
+    - scikit-learn
+    - scipy
+    - pytables
+    - pillow
+    - seaborn
+    - emcee
+    - pip
+    - line_profiler
+    - memory_profiler
+    - snakeviz
+    - pip:
+        - wpca
+        - autograd
+        - tensorflow
+        - edward
+        - psrecord

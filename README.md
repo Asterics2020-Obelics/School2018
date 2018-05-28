@@ -122,10 +122,15 @@ You can also install a Git tool for Windows: [Git for Windows](https://git-for-w
 We will use a common environment all along the school.
 To create it, you just need to run
 ```
-conda env create -n school18 -f environment.yml
+conda env create -f environment.yml
 ```
 
 Once the environment has been created and all dependencies installed, you may activate it with (you will need to do that every time you want to use this environment):
+```
+conda activate school18
+```
+
+Note that if you haven't followed the [Anaconda installation](#python) or have an Anaconda version < 4.4, you will have to run
 ```
 source activate school18
 ```
@@ -160,6 +165,7 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | Hands-on               | Main tutor(s)              | Additional tutors                                                    |
 | ---------------------- |----------------------------|----------------------------------------------------------------------|
 | Efficient code design  | Tammo Jan Dijkema, Zheng Meyer|                                                                   |
+| Git                    | Kai Bruegge, Maximilian Nöthe|                                                                    |
 | Numpy                  | Tamas Gal                  | Frederic Gillardo                                                    |
 | Pandas                 | Tamas Gal                  | Frederic Gillardo                                                    |
 | Scipy                  | Kai Bruegge, Maximilian Nöthe|                                                                    |
