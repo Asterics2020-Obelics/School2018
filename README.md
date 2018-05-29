@@ -180,7 +180,7 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | Scipy                  | Kai Bruegge, Maximilian Nöthe|                                                                    |
 | PyVO                   | Hendrik Heinl              |                                                                      |
 | Debugging & Profiling  | Christoph Deil             |                                                                      |
-| Astropy                | Axel Donath, Christoph Deil |                                                                     |
+| Astropy                | Axel Donath, Christoph Deil | David Kirby                                                         |
 | Machine learning       | David Kirkby               | Kai Bruegge, Thomas Vuillaume, Mikaël Jacquemont                     |
 
 # Help <a name="help"></a>
