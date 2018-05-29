@@ -129,6 +129,11 @@ To create it, you just need to run:
 conda env create -f environment.yml
 ```
 
+If after the creation the file environment.yml was updated, you could update your installation with:
+```
+conda env update -f environment.yml
+```
+
 Once the environment has been created and all dependencies installed, you may activate it with (you will need to do that every time you want to use this environment):
 ```
 conda activate school18
