@@ -34,7 +34,7 @@ Clone this repository on your personal computer.
 You will need it before the school to install the different tools, and
 during the school while attending the hands-on. For Windows, see [below](#windows).
 
-# Recommendation for Python install <a name="python"></a>
+# Recommendation for Python install <a name="python"></a> 
 
 You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
