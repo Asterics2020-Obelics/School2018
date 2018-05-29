@@ -22,7 +22,7 @@ programming for astrophysics and astroparticle physics".
 - [Chat room](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
-- [Ressources](#ressources)
+- [Resources](#resources)
 
 
 # Get a copy of this repository with `git` <a name="repo"></a>
@@ -195,7 +195,7 @@ creating a new one.
 
 Alternatively, use the [chat rooms](#chat).
 
-# Ressources <a name="ressources"></a>
+# Resources <a name="resources"></a>
 
 2017 edition of the school: [program](https://indico.in2p3.fr/event/14227/timetable/#20170606) and [github](https://github.com/Asterics2020-Obelics/School2017)
 
