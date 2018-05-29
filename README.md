@@ -82,12 +82,12 @@ See next section for extra Python libraries requirements (if any).
 
 ## Mac <a name="mac"></a>
 
-1. [Download](https://repo.anaconda.com/archive/Anaconda2-5.1.0-MacOSX-x86_64.sh)
+1. [Download](https://repo.anaconda.com/archive/Anaconda3-5.1.0-MacOSX-x86_64.sh)
 the Mac `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
 
-		bash Anaconda2-5.1.0-MacOSX-x86_64.sh
+		bash Anaconda3-5.1.0-MacOSX-x86_64.sh
 
 1. Accept the License by pressing `<Enter>`, then scrolling down to the bottom using `<space>` and writing `yes`
 
