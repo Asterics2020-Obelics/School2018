@@ -27,6 +27,7 @@ dependencies:
     - memory_profiler
     - snakeviz
     - folium
+    - pycodestyle
     - pip:
         - wpca
         - autograd
