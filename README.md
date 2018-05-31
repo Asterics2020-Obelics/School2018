@@ -124,7 +124,7 @@ First of all, update conda to be able to use the latest features:
 ```
 conda update conda
 ```
-To create it, you just need to run the following command from the directory where you cloned this School2018 repository (since this repository contains the file `environment.yaml`:
+To create it, you just need to run the following command from the directory where you cloned this School2018 repository (since this repository contains the file `environment.yml`):
 ```
 conda env create -f environment.yml
 ```
