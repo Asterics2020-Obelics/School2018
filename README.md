@@ -9,7 +9,7 @@ ASTERICS-OBELICS International
 School](https://indico.in2p3.fr/event/16864/) on "Advanced software
 programming for astrophysics and astroparticle physics".
 
-# Table on content
+# Table of contents
 
 - [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
@@ -38,7 +38,7 @@ during the school while attending the hands-on. For Windows, see [below](#window
 
 You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
-[Anaconda](https://www.continuum.io/downloads). The procedures described bellow will help you install what is needed for the school.
+[Anaconda](https://www.continuum.io/downloads). The procedure described bellow will help you install what is needed for the school.
 If you already have Anaconda installed, you may skip to the [Library requirements section](#req).
 
 ## Linux <a name="linux"></a>
@@ -124,12 +124,12 @@ First of all, update conda to be able to use the latest features:
 ```
 conda update conda
 ```
-To create it, you just need to run:
+To create it, you just need to run the following command from the directory where you cloned this School2018 repository (since this repository contains the file `environment.yaml`:
 ```
 conda env create -f environment.yml
 ```
 
-If after the creation the file environment.yml was updated, you could update your installation with:
+If after the creation the file `environment.yml` was updated, you can update your installation with:
 ```
 conda env update -f environment.yml
 ```
