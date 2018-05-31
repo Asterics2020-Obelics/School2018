@@ -17,13 +17,14 @@ programming for astrophysics and astroparticle physics".
     - [Mac](#mac)
     - [Windows](#windows)
     - [Library requirements](#python-req)
+- [Having troubles?](#issues)
 - [Jupyter](#jupyter)    
 - [IDE: PyCharm](#pycharm)
 - [Chat room](#chat)
 - [Tutors](#tutors)
 - [Help](#help)
 - [Resources](#resources)
-
+ 
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
@@ -143,6 +144,11 @@ conda activate school18
 ```
 source activate school18
 ```
+
+# Having troubles? <a name="issues"></a> 
+
+If you have any technical issue (e.g. regarding the install), first have a look at the [Issues](https://github.com/Asterics2020-Obelics/School2018/issues) tab and check that the issue has not been solved already (check the closed ones too). If not, please do open an issue.
+You may also ask a question on [slack](#chat).
 
 
 # Jupyter <a name="jupyter"></a>
