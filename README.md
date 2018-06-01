@@ -16,7 +16,7 @@ programming for astrophysics and astroparticle physics".
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows](#windows)
-    - [Library requirements](#python-req)
+    - [Library requirements](#req)
 - [Having troubles?](#issues)
 - [Jupyter](#jupyter)    
 - [IDE: PyCharm](#pycharm)
@@ -111,6 +111,12 @@ Set the correct path to your anaconda installation. If you do not include the se
 See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
+
+There are two possibilities for Windows users:
+
+1. If you have Windows 10 installed, then you can install WLS (Windows Linux Subsystem) which is an Ubuntu Linux distribution. In this case, everything is done from the WLS terminal following the [Linux](#linux) instructions (for Ubuntu).
+
+2. Alternatively, you can run the Windows Anaconda executable. In this case please use the following instructions:
 
 Instruction for Windows can be found
 [here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`.
