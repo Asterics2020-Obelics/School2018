@@ -9,21 +9,21 @@ ASTERICS-OBELICS International
 School](https://indico.in2p3.fr/event/16864/) on "Advanced software
 programming for astrophysics and astroparticle physics".
 
-# Table on content
+# Table of contents
 
 - [Get a copy of this repository with `git`](#repo)
 - [Recommendation for Python install](#python)
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows](#windows)
-    - [Library requirements](#python-req)
+    - [Library requirements](#req)
+- [Having troubles?](#issues)
 - [Jupyter](#jupyter)    
 - [IDE: PyCharm](#pycharm)
 - [Chat room](#chat)
 - [Tutors](#tutors)
-- [Help](#help)
 - [Resources](#resources)
-
+ 
 
 # Get a copy of this repository with `git` <a name="repo"></a>
 
@@ -38,7 +38,7 @@ during the school while attending the hands-on. For Windows, see [below](#window
 
 You must install Python 3.6 and a few Python libraries. The
 recommended way to do so is to use
-[Anaconda](https://www.continuum.io/downloads). The procedures described bellow will help you install what is needed for the school.
+[Anaconda](https://www.continuum.io/downloads). The procedure described bellow will help you install what is needed for the school.
 If you already have Anaconda installed, you may skip to the [Library requirements section](#req).
 
 ## Linux <a name="linux"></a>
@@ -112,8 +112,16 @@ See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
 
+There are two possibilities for Windows users:
+
+1. If you have Windows 10 installed, then you can install WLS (Windows Linux Subsystem) which is an Ubuntu Linux distribution. In this case, everything is done from the WLS terminal following the [Linux](#linux) instructions (for Ubuntu).
+
+2. Alternatively, you can run the Windows Anaconda executable. In this case please use the following instructions:
+
 Instruction for Windows can be found
 [here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`.
+
+When a `conda` command is required, run it from the `Anaconda prompt` terminal.
 
 You can also install a Git tool for Windows: [Git for Windows](https://git-for-windows.github.io/). Launch `Git GUI` or `Git bash` to get started.
 
@@ -124,12 +132,14 @@ First of all, update conda to be able to use the latest features:
 ```
 conda update conda
 ```
-To create it, you just need to run:
+Windows users: run this command (and the followings) from the  `Anaconda prompt` terminal.
+
+To create the environment, you just need to run the following command from the directory where you cloned this School2018 repository (since this repository contains the file `environment.yml`):
 ```
 conda env create -f environment.yml
 ```
 
-If after the creation the file environment.yml was updated, you could update your installation with:
+If after the creation the file `environment.yml` was updated, you can update your installation with:
 ```
 conda env update -f environment.yml
 ```
@@ -143,6 +153,13 @@ conda activate school18
 ```
 source activate school18
 ```
+
+# Having troubles? <a name="issues"></a> 
+
+If you have any technical issue (e.g. regarding the install), first have a look at the [Issues](https://github.com/Asterics2020-Obelics/School2018/issues) tab and check that the issue has not been solved already (check the closed ones too). If not, please do open an issue (you will need a github account) for each question you may have before or during the school about software install and/or about one of the
+classes.
+
+You may also ask a question on [slack](#chat).
 
 
 # Jupyter <a name="jupyter"></a>
@@ -183,17 +200,6 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 | Astropy                | Axel Donath, Christoph Deil | David Kirkby                                                         |
 | Machine learning       | David Kirkby               | Kai Bruegge, Thomas Vuillaume, Mikaël Jacquemont                     |
 
-# Help <a name="help"></a>
-
-Please create a [new
-issue](https://github.com/Asterics2020-Obelics/School2018/issues) (you
-will need a github account) for each question you may have before or
-during the school about software install and/or about one of the
-classes. Of course, you should first check the existing list of issues
-to see if your question has already been asked and answered before
-creating a new one.
-
-Alternatively, use the [chat rooms](#chat).
 
 # Resources <a name="resources"></a>
 

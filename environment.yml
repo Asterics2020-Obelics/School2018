@@ -2,6 +2,7 @@ name: school18
 channels:
     - anaconda
     - astropy
+    - conda-forge
 dependencies:
     - python=3.6
     - astropy
@@ -25,6 +26,8 @@ dependencies:
     - line_profiler
     - memory_profiler
     - snakeviz
+    - folium
+    - pycodestyle
     - pip:
         - wpca
         - autograd
