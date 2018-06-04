@@ -33,6 +33,7 @@
 \usepackage{lstautogobble}
 \lstset{autogobble, basicstyle=\ttfamily}
 
+\usepackage{pdfpages}
 
 \usepackage{nth}
 \usepackage{tikz}
@@ -72,6 +73,10 @@
 
 \begin{document}
 
+{
+  \setbeamercolor{background canvas}{bg=}
+  \includepdf[pages={1}]{content/acknowledgement.pdf}
+}
 \maketitle
 
 \begin{frame}[c]{Overview}
@@ -83,5 +88,9 @@
 \input{content/hosters.tex}
 \input{content/ci.tex}
 \input{content/comparison.tex}
+{
+  \setbeamercolor{background canvas}{bg=}
+  \includepdf[pages={2}]{content/acknowledgement.pdf}
+}
 
 \end{document}

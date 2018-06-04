@@ -16,7 +16,7 @@ programming for astrophysics and astroparticle physics".
     - [Linux](#linux)
     - [Mac](#mac)
     - [Windows](#windows)
-    - [Library requirements](#python-req)
+    - [Library requirements](#req)
 - [Having troubles?](#issues)
 - [Jupyter](#jupyter)    
 - [IDE: PyCharm](#pycharm)
@@ -70,10 +70,10 @@ the Linux `Anaconda` installer for Python 3.6.
 
 1. Edit your `.bashrc` to include the first or both of the following two lines  you `.bashrc`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly.
 
-    ```
-    . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
-    conda activate
-    ```
+```
+. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
+conda activate
+```
 
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
@@ -86,8 +86,9 @@ See next section for extra Python libraries requirements (if any).
 the Mac `Anaconda` installer for Python 3.6.
 
 1. Run the following command line:
-
-		bash Anaconda3-5.1.0-MacOSX-x86_64.sh
+```
+bash Anaconda3-5.1.0-MacOSX-x86_64.sh
+```
 
 1. Accept the License by pressing `<Enter>`, then scrolling down to the bottom using `<space>` and writing `yes`
 
@@ -100,10 +101,10 @@ to PATH in your /home/username/.bashrc ? [yes|no]
 [no] >>> no
 ```
 
-1. Edit your `.bash_profile` to include the first or both of the following two lines  you `.bash_profile`. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly.
+1. Edit your `~/.bash_profile` to include the first or both of the following two lines  you `~/.bash_profile`. Create the file, if it does not exist. The first line should always be added and makes the `conda` command available. The second command will make `anaconda` your default `python` in the shell, you might want to leave it out, if you use another python installation regularly.
 ```
 . "$HOME/.local/anaconda3/etc/profile.d/conda.sh"
-    conda activate
+conda activate
 ```             
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
@@ -111,6 +112,12 @@ Set the correct path to your anaconda installation. If you do not include the se
 See next section for extra Python libraries requirements (if any).
 
 ## Windows <a name="windows"></a>
+
+There are two possibilities for Windows users:
+
+1. If you have Windows 10 installed, then you can install WLS (Windows Linux Subsystem) which is an Ubuntu Linux distribution. In this case, everything is done from the WLS terminal following the [Linux](#linux) instructions (for Ubuntu).
+
+2. Alternatively, you can run the Windows Anaconda executable. In this case please use the following instructions:
 
 Instruction for Windows can be found
 [here](https://www.continuum.io/downloads#windows) for the installation of Anaconda. Once installed, you can run `Anaconda navigator`. To run Jupyter, on the main page of the Anaconda navigator, click on `Launch` on the Jupyter notebook box. This will open your favorite browser. From there, you can either load a notebook (e.g. from the Git folder) or create a new notebook by clicking `new -> Python 3`.
