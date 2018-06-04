@@ -17,7 +17,7 @@
   
 \end{frame}
 
-\begin{frame}{Git Hosting Providers}
+\begin{frame}[t]{Git Hosting Providers}
   \small
   \begin{tabu}{@{} X[,C] @{} X[,C] @{} X[,C] @{}}
     \href{https://github.com}{\includegraphics[width=0.75\linewidth]{figures/github.png}} &
@@ -42,13 +42,16 @@
       \item Lacks far behind GitHub and GitLab
     \end{itemize}
   \end{tabu}
-  \begin{center}
+  \begin{center}%
     \onslide<2->{%
-      \Large%
-      \enquote{Now, everybody sort of gets born with a GitHub account}
-      – {\large Guido van Rossum commenting on Python's move to GitHub}
+      \only<2>{%
+        \Large%
+        \enquote{Now, everybody sort of gets born with a GitHub account}
+        – {\large Guido van Rossum commenting on Python's move to GitHub}
+      }%
+      \only<3>{\Large Microsoft announced today that it will acquire GitHub}%
     }
-  \end{center}
+  \end{center}%
 \end{frame}
 
 \begin{frame}{SSH Keys}
