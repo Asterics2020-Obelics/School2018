@@ -1,0 +1,47 @@
+\documentclass{scrartcl}
+
+\usepackage{fontspec}
+\setromanfont{Libertinus Serif}
+\recalctypearea
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+
+\usepackage{amsmath}
+\usepackage{mathtools}
+
+\usepackage[per-mode=fraction]{siunitx}
+
+\usepackage[
+  math-style=ISO,
+  bold-style=ISO,
+  nabla=upright,
+  partial=upright,
+]{unicode-math}
+\setmathfont{Libertinus Math}
+
+\usepackage{blindtext}
+\usepackage{graphicx}
+
+
+
+\begin{document}
+  \section{Get the textwidth}
+  Textwidth: \the\textwidth \\
+  $\SI{1}{in} = \SI{72.27}{pt}$ 
+
+  \section{Awesome plot}
+  
+  \blindtext
+
+  \begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{plot.pdf}
+    \caption{%
+      Plot with same font family and size as main document
+    }\label{fig:plot}
+  \end{figure}
+
+  \blindtext
+
+\end{document}
