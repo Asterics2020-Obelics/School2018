@@ -113,7 +113,7 @@ def plot_classification(nsrc_predict, nsrc_true, n_max=4, label=''):
     """
     bins = np.linspace(0.5, n_max + 0.5, n_max + 1)
     fig, axes = plt.subplots(1, n_max, sharex=True, sharey=True,
-                             figsize=(3 * n_max, 3))
+                             figsize=(2.5 * n_max, 2.5))
     for n in range(1, n_max + 1):
         sel = (nsrc_true == n)
         ax = axes[n - 1]
@@ -131,7 +131,7 @@ def scan_misclassified(nsrc_predict, nsrc_true, df, n_max=4):
     """
     c = sklearn.metrics.confusion_matrix(nsrc_true, nsrc_predict)
     fig, axes = plt.subplots(1, n_max, sharex=True, sharey=True,
-                             figsize=(3 * n_max, 3))
+                             figsize=(2.5 * n_max, 2.5))
     for n in range(1, n_max + 1):
         # Find the most common failure.
         c[n - 1, n - 1] = 0
