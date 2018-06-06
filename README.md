@@ -204,6 +204,8 @@ Here is the list of tutors for the hands-on sessions, with the additional tutors
 
 # Resources <a name="resources"></a>
 
+See the [links file](LINKS.md)
+
 2017 edition of the school: [program](https://indico.in2p3.fr/event/14227/timetable/#20170606) and [github](https://github.com/Asterics2020-Obelics/School2017)
 
 Complete Python tutorials:
