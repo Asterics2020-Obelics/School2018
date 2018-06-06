@@ -12,6 +12,7 @@
 ## Other Workshops / Collections of Notebooks
 
 * [Python for Astronomers and Particle Physicists, Barcelona 2018](https://github.com/Python4AstronomersAndParticlePhysicists/PythonWorkshop-ICE)
+* [Producing publication ready plots with matplotlib example](https://github.com/Python4AstronomersAndParticlePhysicists/PythonWorkshop-ICE/tree/master/examples/use_system_latex)
 
 
 ## Fun stuff
