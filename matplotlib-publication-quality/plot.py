@@ -2,21 +2,48 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-t = np.linspace(0, 1, 1000)
-f = 10
-
-plt.figure()
-plt.plot(t, np.sin(2 * np.pi * f * t))
-plt.xlabel('$t / \mathrm{s}$')
-plt.ylabel('$U / \mathrm{V}$')
-
-plt.text(
-    0.5, 1.05,
-    r'$U(t) = \sin(2 \pi \nu t)$',
-    va='bottom',
-    ha='center'
+formula = (
+    r'$\displaystyle '
+    r'N = \int_{E_\text{min}}^{E_\text{max}} '
+    r'\int_0^A'
+    r'\int_{t_\text{min}}^{t_\text{max}} '
+    r'Φ_0 \left(\frac{E}{\SI{1}{\GeV}}\right)^{\!\!-γ}'
+    r' \, \symup{d}A \, \symup{d}t \, \symup{d}E'
+    r'$'
 )
-plt.ylim(-1.1, 1.2)
+
+
+def power_law_spectrum(energy, normalisation, spectral_index):
+    return normalisation * energy**(-spectral_index)
+
+
+bin_edges = np.logspace(2, 5, 15)
+bin_centers = 0.5 * (bin_edges[:-1] + bin_edges[1:])
+
+y = power_law_spectrum(bin_centers, 1e-5, 2.5)
+sigma = 0.2 * y
+y_with_err = y + np.random.uniform(y, sigma)
+
+plt.errorbar(
+    np.log10(bin_centers),
+    y_with_err,
+    xerr=[
+        np.log10(bin_centers) - np.log10(bin_edges[:-1]),
+        np.log10(bin_edges[1:]) - np.log10(bin_centers)
+    ],
+    yerr=sigma,
+    linestyle='',
+)
+
+plt.xlabel(r'$\log_{10}\bigl(E \mathbin{/} \si{\giga\electronvolt}\bigr)$')
+plt.ylabel(
+    r'$\Phi_0'
+    r'\mathbin{/}'
+    r'\si{\per\GeV\per\second\per\steradian\per\meter\squared}$'
+)
+
+plt.text(0.1, 0.1, formula, transform=plt.gca().transAxes)
+plt.yscale('log')
 
 plt.tight_layout(pad=0)
-plt.savefig('plot.pdf')
+plt.savefig('build/plot.pdf')
