@@ -78,7 +78,9 @@ conda activate
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
 
-See next section for extra Python libraries requirements (if any).
+1. Close your current terminal window and open a new one after so the changes to the `.bashrc` can take effect
+
+1. Install the [Requirements](#req)
 
 ## Mac <a name="mac"></a>
 
@@ -108,8 +110,9 @@ conda activate
 ```             
 Set the correct path to your anaconda installation. If you do not include the second command, you need to run `conda activate` before using python for this workshop.
 
+1. Close your current terminal window and open a new one after so the changes to the `.bash_profile` can take effect
 
-See next section for extra Python libraries requirements (if any).
+1. Install the [Requirements](#req)
 
 ## Windows <a name="windows"></a>
 
