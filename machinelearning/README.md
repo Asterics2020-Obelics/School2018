@@ -4,4 +4,6 @@
 
 ### [Table of contents](https://github.com/Asterics2020-Obelics/School2018/blob/master/machinelearning/Contents.ipynb)
 
+[![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](http://nbviewer.jupyter.org/github/Asterics2020-Obelics/School2018/edit/master/machinelearning/Contents.ipynb)
+
 *Notebooks developed and tested with the [school18 conda environment](https://github.com/Asterics2020-Obelics/School2018#library-requirements-).*
